@@ -12,7 +12,7 @@
 
 
 
- (def bpm 130)
+ (def bpm 155)
 
  (defn beat-length [bpm] (* 1000 (/ 60 bpm )))
 
@@ -35,4 +35,4 @@
 
 
 
- (aaa 189)
+ (aaa bpm)
